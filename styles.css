@@ -1,0 +1,87 @@
+/* Importing fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* General styles for the main container */
+.main-container {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f8f9fa; /* Light background color for the page */
+    padding: 20px;
+    max-width: 900px; /* Slightly increased width for more spacious layout */
+    margin: auto;
+    border-radius: 8px; /* Rounded corners for container */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+/* Styling for the search header */
+.wiki-search-header {
+    border: 1px solid #e0e0e0; /* Lighter border color for a softer look */
+    padding: 40px 20px; /* Increased padding for better spacing */
+    text-align: center;
+    margin-bottom: 40px;
+    background-color: #ffffff; /* White background for header */
+    border-radius: 12px; /* More rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05); /* Light shadow for subtle effect */
+}
+
+/* Logo styling */
+.wiki-logo {
+    max-width: 200px; /* Fixed width for consistent logo size */
+    height: auto;
+    margin-bottom: 20px; /* Space below the logo */
+}
+
+/* Styling for the search input */
+.search-input {
+    font-size: 1.1rem; /* Slightly larger font size for better readability */
+    border: 1px solid #d5cdcd;
+    border-radius: 4px;
+    padding: 12px; /* Increased padding for better touch target */
+    width: calc(100% - 24px); /* Full width minus padding */
+    margin-top: 10px; /* Space above the input */
+    box-sizing: border-box; /* Ensure padding is included in width */
+}
+
+/* Styling for search results */
+.search-results {
+    padding: 0; /* Removed extra padding for cleaner results layout */
+}
+
+.result-item {
+    background-color: #ffffff; /* White background for result items */
+    border: 1px solid #e0e0e0; /* Light border for separation */
+    border-radius: 8px; /* Rounded corners for result items */
+    padding: 20px; /* Padding inside result items */
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05); /* Light shadow for depth */
+}
+
+.result-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 10px; /* Space below the title */
+    display: block; /* Ensures it behaves like a block element */
+}
+
+.link-description {
+    color: #666; /* Slightly lighter color for description */
+    font-size: 1rem;
+    margin: 10px 0; /* Margin above and below the description */
+}
+
+.result-url {
+    color: #007bff; /* Bootstrap primary color for links */
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.result-url:hover {
+    text-decoration: underline; /* Underline on hover for better UX */
+}
+
+/* Spinner styling */
+#spinner {
+    display: none; /* Initially hidden */
+    margin-top: 20px;
+    text-align: center; /* Centering spinner */
+}
